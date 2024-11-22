@@ -1,3 +1,32 @@
+/* Сброс стандартных стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Светло-серый фон */
+    color: #333; /* Темный текст */
+    margin: 0;
+    padding: 0;
+}
+
+/* Контейнер для центрирования содержимого */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Стили для хедера */
+header {
+    background-color: #007bff; /* Синий фон */
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
